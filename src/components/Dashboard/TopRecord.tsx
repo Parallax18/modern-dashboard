@@ -2,7 +2,7 @@ import { Box, Flex, Stack, Text, useMultiStyleConfig } from '@chakra-ui/react';
 import dynamic from 'next/dynamic';
 import React, { useEffect, useState } from 'react';
 
-import { getDonutConfig } from '@/utils/analytics-config-data/getDonutConfig';
+import { getDonutConfig } from '@/utils/getDonutConfig';
 
 import TopItem from './TopItem';
 

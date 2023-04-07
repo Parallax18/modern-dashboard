@@ -1,8 +1,5 @@
 import type { TTopLocation, TTopSource } from '@/api/models/analytics-data.d';
-import {
-  countriesMock,
-  sourcesMock,
-} from '@/utils/analytics-config-data/getDonutConfig';
+import { countriesMock, sourcesMock } from '@/utils/getDonutConfig';
 
 const handleTopLocations = (data: TTopLocation[] | undefined) => {
   const locations = data?.map((location) => ({

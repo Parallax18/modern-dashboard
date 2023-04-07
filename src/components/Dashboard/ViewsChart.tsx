@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 import React, { useMemo } from 'react';
 
 import type { THandleDataReturnType } from '@/types/chart-data';
-import { getChartConfig } from '@/utils/analytics-config-data/getChartConfig';
+import { getChartConfig } from '@/utils/getChartConfig';
 
 import InfoIcon from '../icons/InfoIcon';
 
