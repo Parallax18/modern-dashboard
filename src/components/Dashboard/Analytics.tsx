@@ -8,7 +8,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { useAnalyticsData } from '@/api/hooks/use-analytics-data';
 import { CustomDatePicker, TopRecord } from '@/components';
 import { useChartData } from '@/hooks/use-chart-data';
-import { useTopLocationData } from '@/hooks/use-top-location-data';
+import { useTopRecordData } from '@/hooks/use-top-location-data';
 import type { TViewsChartData } from '@/types/chart-data';
 
 import Pill from './Pill';
@@ -50,7 +50,7 @@ const Analytics = () => {
 
   const analyticsData = useMemo(() => data, [data, isLoading]);
 
-  const { handleTopLocations, handleTopReferralSources } = useTopLocationData();
+  const { handleTopLocations, handleTopReferralSources } = useTopRecordData();
 
   const {
     locations: topLocations,

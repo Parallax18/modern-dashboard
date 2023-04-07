@@ -38,6 +38,6 @@ const handleTopReferralSources = (data: TTopSource[] | undefined) => {
   return { sources, topRefSeries, sourceColors };
 };
 
-export const useTopLocationData = () => {
+export const useTopRecordData = () => {
   return { handleTopLocations, handleTopReferralSources };
 };
