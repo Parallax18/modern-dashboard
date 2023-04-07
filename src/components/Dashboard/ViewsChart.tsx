@@ -49,7 +49,7 @@ const ViewsChart = ({ chartData }: TChartDataProps) => {
             <InfoIcon />
           </Flex>
           <Text fontSize={'4xl'} color={'brand.gray.dark'} fontWeight={'bold'}>
-            {views?.reduce((a, b) => a + b, 0)}
+            {views?.reduce((a, b) => a + b, 0).toLocaleString('en-US')}
           </Text>
           <Box w={'full'}>
             {series && (
