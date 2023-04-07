@@ -44,7 +44,7 @@ const TopRecord = ({ data, series, colors, type, title }: TopRecordProps) => {
   const { options } = getDonutConfig();
 
   return (
-    <Box __css={styles} minH={'355px'}>
+    <Box __css={styles} minH={'355px'} w={'full'}>
       <Flex w={'full'} justifyContent={'space-between'}>
         <Text fontWeight={'bold'} fontSize={'base'} color={'brand.gray.dark'}>
           {title}
