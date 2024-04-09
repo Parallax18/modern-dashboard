@@ -1,4 +1,4 @@
-# MAINSTACK FRONTEND TASK
+# Modern dashboard
 
 For this application, I used Nextjs, Typescript, Chakraui and React-query.
 
